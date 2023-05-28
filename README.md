@@ -28,6 +28,8 @@ The tool is made of two components: a python script to reduce the instrument's p
 
 2. Put TroubleCube in the effect chain after the device.
 
+<img src = "images/tc_img.png" alt="Alt text" title="TroubleCube M4L plug-in">
+
 3. Select either "listen" to control VST and AU plug-ins or "set" mode if you want to work with Live's native devices or M4L plug-ins. Using "listen" mode you can select the presets to be stored and reduced directly from the plug-in you want to control. The values will be automatically sent to TroubleCube and properly scaled. If you are dealing with categorical parameters you may have to create an "adapt scheme". For detailed instructions, open the TroubleCube plug-in and check the subpatch "adapt-scheme". 
 When working in "set" mode the values of the device you want to control will not be reflected inside TroubleCube, therefore you have to set the parameters of the device from the number boxes at the right of the map buttons inside TroubleCube.
 
@@ -61,6 +63,11 @@ This command will create a map file in the "maps" folder inside the root and a "
 10. Inside TroubleCube set the device to "play" mode. Press the "load" button and select the map file. If you selected a further scaling technique in the script, select it accordingly in the TroubleCube menu. You also need to load the statistics file by selecting the "stats" button. If no other scaling was applied just set the TroubleCube menu to "none". In this case you do not have to load the statistics file. If you created an adapt scheme be sure this one has been loaded as well by selecting the "as" button. Once you are done press "init" then the "train" button.
 
 11. If you went through all the previous steps correctly you should see the presets represented as points inside the 3D GUI with their names on the right. Now you are able to automatically program the instrument by moving the white torus inside the 3D GUI and exploring the virtual space. The number boxes at the right of the "map" buttons should reflected the value that is currently sent to the DMI you are controlling. Using the "recall" number box you can automatically recall any preset.
+To move the torus you can use the computer's keyboard as follows:
+
+    a / d: left / right
+    w / z: up / down
+    s / x : rear / front
 
 12. When you find a spot of the space that sounds interesting, you can store it by assiging a name as you did in step 4. The point will be immediately represented in the virtual space with the name associated to it. Please do not forget to save again the map file by pressing the "write" button. 
 
