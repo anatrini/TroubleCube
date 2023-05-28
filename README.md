@@ -24,6 +24,9 @@ Max and the odot package are necessary only to run the TroubleCube_sender patch.
 ## Usage
 
 The tool is made of two components: a python script to reduce the instrument's parameters to a system of three-dimensional coordinates and a Max for Live plugin to display the virtual space and map the values to the instrument's parameters.
+To start clone this repository and put the TroubleCube.amxd file where the M4L audio effects usually lie, e.g. on Mac
+
+    `User/Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect/
 
 1. Open Ableton Live and choose the instrument or the chain you want to control.
 
@@ -80,4 +83,5 @@ To move the torus you can use the computer's keyboard as follows:
 TroubleCube is still a prototype therefore it has some significant limitations.
 The reduction routine is still basic this means that reducing more than 8-10 presets at once may result in a significant loss of accuracy when those will be retrieved from the virtual space and it is not recommended.
 Due to performance reasons, and the fact that OSC is not usually implemented in commercial plug-ins, TroubleCube only supports the mapping of 32 parameters. An OSC version will be released soon. Drawing trajectories between the points inside the virtual space it is not supported in the current version.
+This device has been tested on macOS 12.6.6. and Ableton Live 11.3.2.
 
