@@ -65,9 +65,9 @@ This command will create a map file in the "maps" folder inside the root and a "
 11. If you went through all the previous steps correctly you should see the presets represented as points inside the 3D GUI with their names on the right. Now you are able to automatically program the instrument by moving the white torus inside the 3D GUI and exploring the virtual space. The number boxes at the right of the `map` buttons should reflected the value that is currently sent to the DMI you are controlling. Using the `recall` number box you can automatically recall any preset.
 To move the torus you can use the computer's keyboard as follows:
 
-    a / d: left / right
-    w / z: up / down
-    s / x : rear / front
+ - a / d: left / right
+ - w / z: up / down
+ - s / x : rear / front
 
 12. When you find a spot of the space that sounds interesting, you can store it by assiging a name as you did in step 4. The point will be immediately represented in the virtual space with the name associated to it. Please do not forget to save again the map file by pressing the "write" button. 
 
