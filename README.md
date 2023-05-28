@@ -42,21 +42,21 @@ When working in "set" mode the values of the device you want to control will not
 7. In order to create a map and its associated statistics you need to run the python script. It is recommended to run the script inside a virtual environment e.g. Miniconda or Poetry. 
 Using conda for example, once you cloned the repository "cd" to the root folder and run:
 
-    conda create --name <environment_name> python==3.9.16
+    `conda create --name <environment_name> python==3.9.16`
 
-    conda activate <myenv>
+    `conda activate <myenv>`
 
-    pip install -r requirements.txt
+    `pip install -r requirements.txt`
 
 Ensure that 'pip' is available within your environment and make sure to activate the environment before installing the requirements.
 
 8. To get an overview of the script's arguments, type in the terminal:
 
-    python device2map.py -h
+    `python device2map.py -h`
 
 9. To generate a map and the statistics type:
 
-    python device2map.py -scaler <scaling_method> -dim <reduction_technique> <path_to_presets_file> <map_name>
+    `python device2map.py -scaler <scaling_method> -dim <reduction_technique> <path_to_presets_file> <map_name>`
 
 This command will create a map file in the "maps" folder inside the root and a "mimax" file inside the "statistics" folder, necessary to use the TroubleCube_sender. If a further scaling step has been selected another json file for back-scaling has been created as well.
 
