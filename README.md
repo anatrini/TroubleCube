@@ -78,5 +78,5 @@ To move the torus you can use the computer's keyboard as follows:
 
 TroubleCube is still a prototype therefore it has some significant limitations.
 The reduction routine is still basic this means that reducing more than 8-10 presets at once may result in a significant loss of accuracy when those will be retrieved from the virtual space and it is not recommended.
-Due to performance reasons, and the fact that OSC is not implmeneted by default in 99% of available plug-ins, TroubleCube only supports the mapping of 32 parameters. An OSC version will be released soon. Drawing trajectories between the points inside the virtual space it is not supported in the current version.
+Due to performance reasons, and the fact that OSC is not usually implemented in commercial plug-ins, TroubleCube only supports the mapping of 32 parameters. An OSC version will be released soon. Drawing trajectories between the points inside the virtual space it is not supported in the current version.
 
