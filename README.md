@@ -18,7 +18,7 @@ In order to use TroubleCube the following additional pieces of software are requ
 - Ableton Live (even trial)
 - rapid.regression external, available at https://github.com/mzed/rapid
 - Max and the CNMAT odot max package, available from the Max's package manager or at https://github.com/CNMAT/CNMAT-odot/releases. 
-The odot package is necessary only to run the TroubleCube_sender max patch.
+Max and the odot package are necessary only to run the TroubleCube_sender patch.
 
 
 ## Usage
